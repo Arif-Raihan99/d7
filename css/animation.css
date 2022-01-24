@@ -1,0 +1,60 @@
+.div-1{
+    height: 300px;
+    width: 400px;
+    background-color: skyblue;
+    animation-name: arif;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    margin: 150px auto;
+    animation-iteration-count: infinite;
+}
+@keyframes arif {
+    0%{
+        background-image: url("../img/download1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    50%{
+        background-image: url("../img/download2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    100%{
+        background-image: url("../img/download3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+/*@keyframes arif {*/
+/*    from {*/
+/*        background-color: green;*/
+/*    }*/
+/*    to {*/
+/*        background-color: pink;*/
+/*    }*/
+
+/*}*/
+
+/*@keyframes arif {*/
+/*    0% {background-color: black}*/
+/*    25% {background-color: green; height: 400px; width: 500px}*/
+/*    50% {background-color: deeppink; height: 200px; width: 600px}*/
+/*    75% {background-color: orangered; height: 600px; width: 200px}*/
+/*    100% {background-color: yellow; height: 500px; width: 600px}*/
+/*}*/
+
+/*@keyframes arif {*/
+/*    0% {background-color: black}*/
+/*    50% {background-color: green}*/
+/*    100% {background-color: yellow}*/
+/*}*/
+
+/*@keyframes arif {*/
+/*    0% {background-color: black; transform: rotate(0deg) scale(1)}*/
+/*    50% {background-color: green; transform: rotate(360deg) scale(1.5)}*/
+/*    100% {background-color: yellow; transform: rotate(0deg) scale(1)}*/
+/*}*/
